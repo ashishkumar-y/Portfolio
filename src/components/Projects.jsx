@@ -9,9 +9,7 @@ import { PROJECTS } from '../constants';
 const Projects = () => {
 
     const clickHandler = (e) => {
-
       if(e.target.tagName == 'DIV'){
-
         e.target.classList.toggle('opacity-0')
         console.log(e.target.classList);
       }}

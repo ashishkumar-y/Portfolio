@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import { NAVIGATION_LINKS } from '../constants';
 import { FaTimes } from 'react-icons/fa';
-import { FaBars } from 'react-icons/fa6';
+import { FaBars, FaCode } from 'react-icons/fa6';
 
 const Navbar = () => {
 
@@ -33,9 +33,9 @@ const Navbar = () => {
                 {/* desktop menu  */}
                 <div className="mx-auto hidden max-w-2xl  items-center justify-around rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex   ">
                     <div className="flex  items-center justify-between gap-6 ">
-                            <a href="#" className='flex' >
-                                <img src={logo} width={160}  alt="" className='' />
-                            </a>
+                        <a href="#" className='flex justify-center items-center' >
+                            <img src={logo} width={160} alt="" className='' />
+                        </a>
                     </div>
                     <ul className='flex items-center gap-7 p-0.5 '>
                         {NAVIGATION_LINKS.map((item, index) => (
@@ -46,14 +46,13 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-
                 {/*------------------ {mobile Menu}------------------ */}
 
-                <div className=' rounded-lg backdrop-blur-md lg:hidden mr-2 ml-2 pl-2 pr-2'>
-                    <div className={`flex items-center justify-between rounded-lg ${isMobileMenuOpen ? 'border' : ''}`}>
-                        <div>
-                            <a href="#">
-                                <img src={logo} alt="logo" width={90} className='m-2' />
+                <div className='  rounded-lg backdrop-blur-md lg:hidden mr-2 ml-2 pl-2 pr-2'>
+                    <div className={`flex items-center justify-between rounded-lg px-2 ${isMobileMenuOpen ? 'border' : ''}`}>
+                        <div className='flex flex-row'>
+                            <a href="#" className=' flex flex-row justify-center items-center'>
+                                <FaCode className=' text-2xl' />   <img src={logo} alt="logo" width={90} className='m-2' />
                             </a>
                         </div>
                         <div className='flex items-center'>

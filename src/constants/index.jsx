@@ -7,7 +7,7 @@ import {
     FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage11 from "../assets/project11.jpeg";
+import projectImage11 from "../assets/project11.png";
 import projectImage2 from "../assets/project2.jpeg";
 import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
@@ -20,7 +20,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
 import { DiJavascript, DiRedis, DiGithub, DiGit, DiBootstrap } from "react-icons/di";
-import { FaNodeJs, FaJsSquare, FaDownload, FaAngleRight, FaGit, } from "react-icons/fa";
+import { FaNodeJs, FaJsSquare, FaDownload, FaAngleRight, FaGit, FaCode } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 import { p } from "framer-motion/client";
