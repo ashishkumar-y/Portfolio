@@ -265,4 +265,8 @@ export const SOCIAL_MEDIA_LINKS = [
         href: "https://www.linkedin.com/in/ashishkumar-y",
         icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
     },
+    //     {
+    //     href: "https://www.linkedin.com/in/ashishkumar-y",
+    //     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
+    // },
 ];
