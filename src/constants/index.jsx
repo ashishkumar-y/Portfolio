@@ -40,17 +40,16 @@ export const HERO = {
     name: "Ashish Kumar",
     greet: "Hello there! 👋🏻",
     description:
-        "A Full Stack Web Developer with a passion for crafting functional and visually stunning web applications. I enjoy creating experiences that connect technology with people."
+        "Data Analyst and Founder of Notchdope, combining analytical thinking with creative problem-solving. Experienced in SQL, Power BI, Python, and data visualization."
 };
 
 export const PROJECTS = [
     {
         id: 1,
-        name: "Task Management Tool",
-        description: 'Comming Soon',
-        // "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+        name: "Credit Card Analytics Dashboard",
+        description: 'Interactive dashboard providing insights into credit card revenue, customer demographics, spending categories, and transaction trends.',
         image: projectImage3,
-        githubLink: "https://github.com/user/task-management-tool",
+        githubLink: "https://app.powerbi.com/view?r=eyJrIjoiN2ZiYjQ1ZjItMTNmNy00ZDEyLTljMzQtNWExZTJjNTQ4YjFkIiwidCI6IjM0YmQ4YmVkLTJhYzEtNDFhZS05ZjA4LTRlMGEzZjExNzA2YyJ9",
     },
     {
         id: 2,
@@ -70,10 +69,10 @@ export const PROJECTS = [
     },
     {
         id: 4,
-        name: "E-Learning App",
-        description: 'Under Progress',
+        name: "ATM Transaction Dashboard",
+        description: 'Power BI Dashboard for analyzing ATM costs, transactions, revenue, uptime, and profitability across different regions.',
         image: projectImage2,
-        githubLink: "https://github.com/user/ecommerce-platform",
+        githubLink: "https://app.powerbi.com/view?r=eyJrIjoiNWFjZDhkZDItYzg3MC00MzI4LThiNmMtNWI5NWU5MGYzOGE4IiwidCI6IjM0YmQ4YmVkLTJhYzEtNDFhZS05ZjA4LTRlMGEzZjExNzA2YyJ9",
     },
 
     // {
@@ -121,12 +120,12 @@ export const PROJECTS = [
 export const BIO = [
     <p className="font-semibold"> I'm <span className="text-green-500 font-semibold" > Ashish</span>,</p>,
 
-    "Full Stack Developer | Problem Solver | Tech Enthusiast",
-    "I am a passionate Full Stack Developer with a strong foundation in web technologies and a drive for creating efficient, user-friendly solutions. My journey began with a deep interest in coding, and over time, I have honed my skills in HTML, CSS, JavaScript, React, and Node.js.",
-    "Currently, I'm focused on mastering Data Structures and Algorithms to enhance my problem-solving abilities and building scalable web applications. My approach to learning is hands-on—I believe in growing through practice and collaboration.",
-    "Beyond coding, I thrive in team environments, sharing knowledge, and contributing to tech communities. My goal is to craft impactful digital experiences that not only meet user needs but also inspire innovation",
+    "Data Analyst | Business Problem Solver | Data Storyteller",
+    "I am passionate about transforming raw data into meaningful insights that drive smarter business decisions. With hands-on experience in SQL, Power BI, Python, Excel, and data visualization, I enjoy uncovering patterns, solving complex problems, and presenting findings in a clear and impactful way.",
+    "My projects focus on data analysis, dashboard development, business intelligence, and predictive insights. I continuously explore new analytical techniques and tools to improve decision-making and create measurable value.",
+    "Beyond analytics, I am the founder of Notchdope, where I combine creativity with data-driven strategy. I believe that the best decisions are backed by data, curiosity, and a commitment to continuous learning.",
     <div className=" p-3 ">
-        <a href={Ashish_Resume}  download={Ashish_Resume} className="Btn bg-green-600 m-auto sm:m-0 rounded-full font-bold mb-6  ">
+        <a href={Ashish_Resume} download={Ashish_Resume} className="Btn bg-green-600 m-auto sm:m-0 rounded-full font-bold mb-6  ">
             <p className="w-full" rel="noreferrer">Resume <FaAngleRight className="svg bottom-2" /></p>
         </a>
 
@@ -146,17 +145,17 @@ export const SKILLS = [
     // },
     {
         icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-        name: "MongoDB",
-        experience: "72%",
+        name: "SQL",
+        experience: "89%",
     },
     {
         icon: <SiExpress className="text-4xl text-blue-700 lg:text-5xl" />,
-        name: "Express",
-        experience: "75%",
+        name: "Power BI",
+        experience: "92%",
     },
     {
         icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
-        name: "React",
+        name: "Tablue",
         experience: "80%",
     },
     {
@@ -171,22 +170,27 @@ export const SKILLS = [
     },
     {
         icon: <SiTailwindcss className="text-4xl text-blue-700 lg:text-5xl" />,
-        name: "Tailwindcss",
+        name: "Microsoft Excel",
         experience: "88%",
     },
     {
         icon: <DiGit className="text-4xl text-red-700 lg:text-5xl" />,
-        name: "Git",
-        experience: "70%",
+        name: "Python",
+        experience: "85%",
     },
     {
         icon: <DiGithub className="text-4xl text-white lg:text-5xl" />,
         name: "GitHub",
-        experience: "72%",
+        experience: "80%",
     },
     {
         icon: <DiBootstrap className="text-4xl text-purple-700 lg:text-5xl" />,
-        name: "Bootstrap",
+        name: "Powerpoint",
+        experience: "87%",
+    },
+    {
+        icon: <DiBootstrap className="text-4xl text-purple-700 lg:text-5xl" />,
+        name: "SPSS Modler",
         experience: "87%",
     },
 
@@ -218,6 +222,20 @@ export const EXPERIENCES = [
 ];
 
 export const EDUCATION = [
+    {
+        degree: "Master of Business Administration (MBA) – Business Analytics",
+        institution: "Chandigarh University",
+        duration: "2025-2027",
+        description:
+            "Pursuing specialization in Business Analytics with a focus on data analysis, business intelligence, statistical modelling, and data-driven decision-making..",
+    },
+    {
+        degree: "Bachelor of Commerce (B.Com)",
+        institution: "Chaudhary Ranbir Singh University, jind, Haryana",
+        duration: "2021-2024",
+        description:
+            "Built a strong foundation in business, finance, accounting, economics, and quantitative analysis.",
+    },
     {
         degree: "Certified Full Stack Developer",
         institution: "Skill Stone, Chandigarh",
